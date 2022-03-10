@@ -2,9 +2,9 @@
 #include <string.h>
 
 /**
-*main - its main
+* main - its main
 * number
-* Return : 0
+* Return : This is boring
 */
 int main(void)
 {
