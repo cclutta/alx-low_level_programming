@@ -4,7 +4,7 @@
 /**
 * main - its main
 * number
-* Return : This is boring
+* Return: This is boring
 */
 int main(void)
 {
