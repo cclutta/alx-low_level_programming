@@ -10,11 +10,13 @@
 int main(void)
 {
 int x;
+char c;
 for (x = 'A'; x <= 'Z'; x++)
 {
-if (x != 'Q' || x != 'E')
+c = tolower(x);
+if (c != 'q' || c != 'e')
 {
-putchar(tolower(x));
+putchar(c);
 }
 }
 putchar('\n');
