@@ -14,7 +14,7 @@ char c;
 for (x = 'A'; x <= 'Z'; x++)
 {
 c = tolower(x);
-if (c != 'q' || c != 'e')
+if (c != 'q' && c != 'e')
 {
 putchar(c);
 }
