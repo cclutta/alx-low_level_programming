@@ -5,6 +5,7 @@
 
 /**
  * _islower - its main
+ * @c - bitch
  *
  * Return: 0
  */
@@ -14,9 +15,9 @@ if (c >= 'a' && c <= 'z')
 {
 return (1);
 }
-else 
+else
 {
-  return (0);
+return (0);
 }
 
 
