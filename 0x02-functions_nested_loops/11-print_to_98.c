@@ -18,20 +18,24 @@ if (n > 98)
 for (x = n; x >= 98; x--)
 {
 print_num(x);
+if (x != 98)
+}
 putchar(',');
 putchar(' ');
-}}
+}}}
 else if (n < 98)
 {
 for (x = n; x <= 98; x++)
 {
 print_num(x);
+if (x != 98)
+{
 putchar(',');
 putchar(' ');
-}}
-else if (n == 98)
+}}}else if (n == 98)
 {
 print_num(n);
+putchar ('\n');
 }
 return (0);
 }
