@@ -35,11 +35,8 @@ if (x != 98)
 putchar(',');
 putchar(' ');
 }}
-putchar('\n');
-}
-return (0);
-}
-
+putchar('\n');}
+return (0);}
 /**
 * print_num - function
 *@n: bitch
@@ -53,7 +50,7 @@ if (n < 0)
 putchar('-');
 n = -n;
 }
-if (n / 10 )
+if (n / 10)
 print_num(n / 10);
 putchar(n % 10 + '0');
 }
