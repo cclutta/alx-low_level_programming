@@ -25,7 +25,7 @@ putchar(' ');
 }}
 putchar('\n');
 }
-else if (n < 98)
+else if (n <= 98)
 {
 for (x = n; x <= 98; x++)
 {
@@ -36,11 +36,6 @@ putchar(',');
 putchar(' ');
 }}
 putchar('\n');
-} 
-else if (n == 98)
-{
-print_num(n);
-putchar ('\n');
 }
 return (0);
 }
