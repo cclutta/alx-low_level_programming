@@ -18,7 +18,7 @@ print_num(r);
 return (r);
 
 }
-int print_num(int n){
+void print_num(int n){
     if (n/10)
         print_num(n/10);
  
