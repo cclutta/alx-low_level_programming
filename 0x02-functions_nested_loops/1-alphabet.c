@@ -8,7 +8,7 @@
  *
  * Return: 0
  */
-int main(void)
+void print_alphabet(void)
 {
 
 char i;
@@ -18,5 +18,5 @@ for (i = 'A'; i <= 'Z'; i++)
 putchar(tolower(i));
 }
 putchar('\n');
-return (0);
+
 }
