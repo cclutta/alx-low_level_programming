@@ -32,6 +32,6 @@ r = -1;
 }
 
 printf("%c%d", c, r);   
-return r;
+
 
 }
