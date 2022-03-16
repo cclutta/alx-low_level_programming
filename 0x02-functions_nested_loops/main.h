@@ -8,3 +8,4 @@ int print_sign(int n);
 int _abs(int);
 int print_last_digit(int);
 void print_num(int n);
+void print_to_98(int n);
