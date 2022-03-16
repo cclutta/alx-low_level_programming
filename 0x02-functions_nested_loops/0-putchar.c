@@ -10,7 +10,7 @@
 int main(void)
 {
   char _putchar [] = {"_putchar\n"};
-int i;
+size_t i;
 
 for(i = 0; i < sizeof(_putchar); i++)
 {
