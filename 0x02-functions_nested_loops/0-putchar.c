@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <time.h>
+
 
 /**
  * main - its main
@@ -9,5 +9,14 @@
  */
 int main(void)
 {
+  char _putchar [] = {"_putchar\n"};
+int i;
+
+for(i = 0; i < sizeof(_putchar); i++)
+{
+    putchar(_putchar[i]);
+}
+
 return (0);
 }
+  
