@@ -35,8 +35,8 @@ if (x != 98)
 putchar(',');
 putchar(' ');
 }}
-putchar('\n');}
-return (0);}
+putchar('\n'); }
+return (0); }
 /**
 * print_num - function
 *@n: bitch
