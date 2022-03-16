@@ -5,7 +5,7 @@
 
 /**
  * _islower - its main
- * @c - bitch
+ * @c: bitch
  *
  * Return: 0
  */
