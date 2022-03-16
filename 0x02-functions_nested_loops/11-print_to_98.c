@@ -36,7 +36,8 @@ putchar(',');
 putchar(' ');
 }}
 putchar('\n');
-}else if (n == 98)
+} 
+else if (n == 98)
 {
 print_num(n);
 putchar ('\n');
@@ -44,15 +45,19 @@ putchar ('\n');
 return (0);
 }
 
+/**
+* print_num - function
+*
+* Return: nothing
+*/
 void print_num(int n)
 {
 if (n < 0)
 {
 putchar('-');
- n = -n;
+n = -n;
 }
 if (n / 10 )
 print_num(n / 10);
- 
-putchar(n%10 + '0');
+putchar(n % 10 + '0');
 }
