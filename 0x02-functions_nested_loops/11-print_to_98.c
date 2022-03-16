@@ -20,7 +20,7 @@ for (x = n; x >= 98; x--)
 _putchar(n + '0');
 _putchar(',');
 _putchar(' ');
-}
+}}
 else
 {
 for (x = n; x <= 98; x++)
@@ -29,7 +29,7 @@ _putchar(n + '0');
 _putchar(',');
 _putchar(' ');
 }
-}
+
 }
 
 
