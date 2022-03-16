@@ -17,6 +17,7 @@ if (n >= 98)
 {
 for (x = n; x >= 98; x--)
 {
+print_num(x);
 putchar(',');
 putchar(' ');
 }}
@@ -24,7 +25,7 @@ else
 {
 for (x = n; x <= 98; x++)
 {
-putchar(n + '0');
+print_num(x);
 putchar(',');
 putchar(' ');
 }
