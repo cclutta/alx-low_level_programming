@@ -4,7 +4,7 @@
 
 
 /**
- * main - its main
+ * print_alphabet - its main
  *
  * Return: 0
  */
