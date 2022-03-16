@@ -47,6 +47,7 @@ return (0);
 
 /**
 * print_num - function
+*@n: bitch
 *
 * Return: nothing
 */
