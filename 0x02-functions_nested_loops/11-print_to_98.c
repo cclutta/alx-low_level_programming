@@ -17,7 +17,6 @@ if (n >= 98)
 {
 for (x = n; x >= 98; x--)
 {
-//putchar(n + '0');
 putchar(',');
 putchar(' ');
 }}
