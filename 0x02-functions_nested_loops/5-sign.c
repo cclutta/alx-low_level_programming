@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include "main.h"
 
 
 
@@ -17,7 +18,7 @@ if (n > 0)
 {
 
 r = 1;
-putchar('+');
+_putchar('+');
 
 }
 else if (n == 0)
