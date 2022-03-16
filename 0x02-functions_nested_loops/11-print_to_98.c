@@ -13,7 +13,7 @@
 int print_to_98(int n)
 {
 int x;
-if (n >= 98)
+if (n > 98)
 {
 for (x = n; x >= 98; x--)
 {
@@ -21,7 +21,7 @@ print_num(x);
 putchar(',');
 putchar(' ');
 }}
-else
+else if (n < 98)
 {
 for (x = n; x <= 98; x++)
 {
@@ -29,23 +29,24 @@ print_num(x);
 putchar(',');
 putchar(' ');
 }
-
+else if (n == 98)
+{
+print_num(n);
 }
-
-
 return (0);
 }
 
 void print_num(int n)
 {
-if (n < 0) {
+if (n < 0)
+{
 putchar('-');
-n = -n;
+ n = -n;
 }
-if ( n / 10 )
-print_num( n / 10);
+if (n / 10 )
+print_num(n / 10);
  
-putchar( n%10 + '0');
+putchar(n%10 + '0');
 }
 
 
