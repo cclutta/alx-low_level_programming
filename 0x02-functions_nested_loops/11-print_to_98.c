@@ -28,11 +28,11 @@ for (x = n; x <= 98; x++)
 print_num(x);
 putchar(',');
 putchar(' ');
-}
+}}
 else if (n == 98)
 {
 print_num(n);
-}}
+}
 return (0);
 }
 
