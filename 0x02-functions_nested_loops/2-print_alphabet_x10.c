@@ -20,7 +20,8 @@ for (i = 'A'; i <= 'Z'; i++)
 {
 putchar(tolower(i));
 }
-}
 putchar('\n');
+}
+
 
 }
