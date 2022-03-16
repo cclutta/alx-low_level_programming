@@ -14,18 +14,7 @@ int print_last_digit(int n)
 {
 int r;
 r = n % 10;
-print_num(r);
+_putchar(r + '0');
 return (r);
 
-}
-void print_num(int n)
-{
-if (n < 0)
-{
-putchar('-');
-n = -n;
-}
-if (n / 10 )
-print_num(n / 10);
-putchar(n % 10 + '0');
 }
