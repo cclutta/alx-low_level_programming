@@ -16,7 +16,6 @@ for (i = 0; i < sizeof(_putchar); i++)
 {
 putchar(_putchar[i]);
 }
-
+putchar('\n');
 return (0);
 }
-  
