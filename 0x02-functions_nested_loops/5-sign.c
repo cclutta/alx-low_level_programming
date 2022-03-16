@@ -12,10 +12,12 @@
 int print_sign(int n)
 {
 int r;
+char c;
 if (n > 0)
 {
-printf("+");
+
 r = 1;
+c = '+';
 
 }
 else if (n == 0)
@@ -28,6 +30,8 @@ else
 putchar('-');
 r = -1;
 }
+
+printf("%c%d", c, r);   
 return r;
 
 }
