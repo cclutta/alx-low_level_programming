@@ -18,7 +18,7 @@ for (i = 0; i <= 9; i++)
 for (j = 0; j <= 9; j++)
 {
 print_num(i * j);
-if (i != 9){
+if (j != 9){
 putchar(',');
 putchar(' ');
 }
