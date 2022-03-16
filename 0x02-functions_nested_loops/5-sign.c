@@ -23,12 +23,12 @@ _putchar('+');
 }
 else if (n == 0)
 {
-putchar('0');
+_putchar('0');
 r = 0;
 }
 else
 {
-putchar('-');
+_putchar('-');
 r = -1;
 }
 
