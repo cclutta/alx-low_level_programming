@@ -32,7 +32,7 @@ putchar(' ');
 else if (n == 98)
 {
 print_num(n);
-}
+}}
 return (0);
 }
 
