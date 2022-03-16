@@ -12,6 +12,6 @@
  */
 int _abs(int n)
 {
-return(_putchar(abs(n)));
+return(abs(n));
 
 }
