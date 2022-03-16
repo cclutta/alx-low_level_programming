@@ -13,10 +13,19 @@
 int print_last_digit(int n)
 {
 int r;
-
-
-r = (fabs(n)) % 10;
-_putchar(r + '0');
+r = n % 10;
+print_num(r);
 return (r);
 
+}
+void print_num(int n)
+{
+if (n < 0)
+{
+putchar('-');
+n = -n;
+}
+if (n / 10 )
+print_num(n / 10);
+putchar(n % 10 + '0');
 }
