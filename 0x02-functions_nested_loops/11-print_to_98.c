@@ -17,17 +17,17 @@ if (n > 98)
 {
 for (x = n; x >= 98; x--)
 {
-_putchar(n + '0');
-_putchar(',');
-_putchar(' ');
+putchar(n + '0');
+putchar(',');
+putchar(' ');
 }}
 else
 {
 for (x = n; x <= 98; x++)
 {
-_putchar(n + '0');
-_putchar(',');
-_putchar(' ');
+putchar(n + '0');
+putchar(',');
+putchar(' ');
 }
 
 }
