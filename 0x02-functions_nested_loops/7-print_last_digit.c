@@ -17,7 +17,7 @@ if (n < 0)
 {
 n = -n;
 }
-r = n % 10;
+r = (labs(n)) % 10;
 _putchar(r + '0');
 return (r);
 
