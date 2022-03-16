@@ -17,7 +17,7 @@ if (n > 0)
 {
 
 r = 1;
-c = '+';
+putchar('+');
 
 }
 else if (n == 0)
