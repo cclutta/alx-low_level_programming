@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * _isdigit - print square
- * @c: input 
+ * _isupper - print square
+ * @c: input size
  *
  * Description: prints a square
  * Return: Always (0)
  */
-int _isdigit(int c)
+
+int _isupper(int c)
 {
 	return (c >= '0' && c <= '9');
 }
