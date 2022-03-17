@@ -6,7 +6,7 @@
  * Return: Always 0.
  */
 int main(void)
-
+{
 	int i;
 	
 	for (i = 1; i <= 100; i++)
@@ -16,7 +16,7 @@ int main(void)
 		}
 		 else if (i % 5 == 0){
 			printf("Buzz ");
-			if(i%3== 0){
+			if(i % 3 == 0){
 			    printf("FizzBuzz ");
 			}
 		 }
