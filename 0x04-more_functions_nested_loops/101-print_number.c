@@ -9,14 +9,20 @@
 
 void print_number(int n)
 {
+	int _n;
+
 	if (n < 0)
 	{
+		_n = -n;
 		_putchar('-');
-		n = -n;
 	}
-	if (n / 10)
-		 print_number(n / 10);
+	else
+	{
+		_n = n;
+	}
+	if (_n / 10)
+		 print_number(_n / 10);
 
-	_putchar(n % 10 + '0');
+	_putchar(_n % 10 + '0');
 
 }
