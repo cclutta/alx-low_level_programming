@@ -5,15 +5,15 @@
  * @size : The height of the triangle
  * Return: Void.
  */
-void print_triangle(int n)
+void print_triangle(int size)
 {
 	int i;
 	int j;
 	int space;
 
-	for (i = 0; i < n; i++)
+	for (i = 0; i < size; i++)
 	{
-		for (space = n - 1 - i; space > 0; space--)
+		for (space = size - 1 - i; space > 0; space--)
 		{
 			_putchar(' ');
 		}
