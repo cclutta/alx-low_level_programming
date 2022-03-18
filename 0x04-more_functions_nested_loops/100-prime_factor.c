@@ -10,7 +10,7 @@
 int main(void)
 {
 	long int num = 612852475143;
-  int i;
+	int i;
 
 	for (i = 2; i < num; i++)
 	{
