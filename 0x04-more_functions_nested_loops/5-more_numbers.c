@@ -16,25 +16,10 @@ void more_numbers(void)
 	{
 		for (j = 0; j <= 14; j++)
 		{
-			print_num(j);
+			putchar('0' + j);
 		}
 		_putchar('\n');
 	}
 	_putchar('\n');
 }
 
-/**
- * print_num - print numbers
- *@n: number
- *
- * prints 10 times the numbers, from 0 to 14, followed by a new line.
- * Return: Always (0)
- */
-
-void print_num(int n)
-{
-	if (n / 10)
-		print_num(n / 10);
-
-	putchar(n % 10 + '0');
-}
