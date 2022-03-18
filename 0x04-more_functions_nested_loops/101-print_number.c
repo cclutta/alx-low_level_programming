@@ -13,7 +13,7 @@ void print_number(int n)
 
 	if (n < 0)
 	{
-		_n = abs(n);
+		_n = -n;
 		_putchar('-');
 	}
 	else
@@ -21,9 +21,20 @@ void print_number(int n)
 		_n = n;
 	}
 
-	if (_n / 10)
-		print_number(_n / 10);
+	print_u_number((unsigned int) _n);
 
-	_putchar(_n % 10 + '0');
+}
 
+/**
+ * print_u_number -  print number
+ *@n: the number
+ *
+ * Return: Void
+ */
+void print_u_number(unsigned int n)
+{
+	if (n / 10)
+		print_u_number(n / 10);
+
+	_putchar(n % 10 + '0');
 }
