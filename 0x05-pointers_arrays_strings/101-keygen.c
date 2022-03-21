@@ -44,6 +44,7 @@ int main(void)
             randomizer = rand() % 4;
             printf("%c", pass[i]);
         }
-	}
+	
 }
+	return (0);
 }
