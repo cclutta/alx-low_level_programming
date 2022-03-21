@@ -2,6 +2,7 @@
 
 /**
  * reset_to_98 - meter and updates the value it points to to 98.
+ *@n: pointer
  * Description: resets to 98
  * Return: Void.
  */
