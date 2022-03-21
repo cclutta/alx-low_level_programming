@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * _strcpy - t copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by
+ * _strcpy - t copies the string pointed to by src, including the terminating null byte (\0)
  * @dest: pointer
  * @src: size
  * Description: returns string
  *
  * Return: char
  */
- 
+
 char *_strcpy(char *dest, char *src)
 {
 	int i;
@@ -19,8 +19,7 @@ char *_strcpy(char *dest, char *src)
 	}
 
 	dest[i] = '\0';
-	
+
 	return (dest);
 
-	
 }
