@@ -30,9 +30,7 @@ int _atoi(char *s)
 			break;
 		
 	}
-
-	
-
-	return (dest);
+	result = sig * result;
+	return (result);
 
 }
