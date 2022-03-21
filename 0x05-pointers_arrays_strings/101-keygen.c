@@ -11,7 +11,7 @@
 int main(void)
 {
 	int i, sum, n;
-	int pass[100];
+	int password[100];
 
 	sum = 0;
 
@@ -19,9 +19,9 @@ int main(void)
 
 	for (i = 0; i < 100; i++)
 	{
-		pass[i] = rand() % 78;
-		sum += (pass[i] + '0');
-		putchar(pass[i] + '0');
+		password[i] = rand() % 78;
+		sum += (password[i] + '0');
+		putchar(password[i] + '0');
 		if ((2772 - sum) - '0' < 78)
 		{
 			n = 2772 - sum - '0';
