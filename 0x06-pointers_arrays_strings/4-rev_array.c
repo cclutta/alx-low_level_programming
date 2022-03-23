@@ -1,5 +1,5 @@
 /**
- * *reverse_array -  that copies a string.
+ * reverse_array -  that copies a string.
  * @a: param pointer to a char
  * @n: int
  *
