@@ -1,7 +1,7 @@
 /**
  * *_strcmp -  that copies a string.
  * @s1: param pointer to a char
- * @s1: param pointer to a char
+ * @s2: param pointer to a char
  *
  * Return: int
  */
