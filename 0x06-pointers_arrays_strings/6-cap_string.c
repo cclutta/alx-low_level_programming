@@ -8,10 +8,10 @@
 
 char *cap_string(char *str)
 {
-	int i; 
+	int i;
 	int j;
 	char delim[] = " \t\n,;.!?\"(){}";
-	
+
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		if (str[0] >= 'a' && str[0] <= 'z')
