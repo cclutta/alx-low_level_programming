@@ -33,11 +33,13 @@ int divide(int n, int i)
 int is_prime_number(int n)
 {
 	
-	if( n < 2 || (n != 2 && (!(n % 2)))
+	if ( n < 2 || (n != 2 && (!(n % 2))
 	   {
 		   return (0);
 	   }
-	   else 
+	   else
+	    {
 	   return (divide(3, n);
+		   }
 		
 }
