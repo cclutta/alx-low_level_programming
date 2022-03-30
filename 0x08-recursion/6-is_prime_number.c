@@ -39,7 +39,7 @@ int is_prime_number(int n)
 	   }
 	   else
 	    {
-	   return (divide(3, n);
+	   return (divide(3, n));
 		   }
 		
 }
