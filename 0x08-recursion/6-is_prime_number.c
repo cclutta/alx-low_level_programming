@@ -18,10 +18,9 @@ int divide(int n, int i)
 	{
 		return (divide(n + 2, i));
 	}
-	else 
+	else
 		return (1);
 }
-	
 
 /**
 * is_prime_number - hat returns 1 if the input integer is a prime.
@@ -32,14 +31,14 @@ int divide(int n, int i)
 
 int is_prime_number(int n)
 {
-	
+
 	if ( n < 2 || (n != 2 && (!(n % 2))))
-	   {
-		   return (0);
-	   }
-	   else
-	    {
-	   return (divide(3, n));
-		   }
-		
+	{
+		return (0);
+	}
+	else
+	{
+		return (divide(3, n));
+	}
+	
 }
