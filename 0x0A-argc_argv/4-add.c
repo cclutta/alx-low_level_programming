@@ -18,14 +18,17 @@ int main(int argc, char *argv[])
 		printf("0\n");
 	}
 
-	for (i = 1; i < argc; i++)
+	while (argc-- && argc > 0)
 	{
-		if (!(isdigit(argv[i])))
+		for (i = 0; argv[argc][i] != '\0'; i++)
 		{
-			printf("Error\n");
-			return (1);
+			if (!(isdigit(argv[argc][i])))
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
-		sum += atoi(argv[i]);
+		sum += atoi(argv[argc]);
 	}
 	printf("%d\n", sum);
 	return (0);
