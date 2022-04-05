@@ -1,4 +1,22 @@
-#include "main.h"
+#include "main.h
+
+/**
+* _strlen - size of string
+* @s: char pointer
+*
+* Return: int
+*/
+int _strlen(char *s)
+{
+	int l = 0;
+
+	while (*s != '\0')
+	{
+		s++;
+		l++;
+	}
+	return (l);
+}
 
 /**
 * argtostr - that concatenates all the arguments of your program.
