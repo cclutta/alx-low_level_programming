@@ -22,7 +22,7 @@ int _strlen(char *s)
 * @s1: char pointer
 * @s2: char pointer
 *
-* Return : char pointer
+* Return: char pointer
 */
 
 char *str_concat(char *s1, char *s2)
