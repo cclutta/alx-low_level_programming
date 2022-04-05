@@ -3,7 +3,7 @@
 * _strlen - size of string
 * @s: char pointer
 *
-* Return : int
+* Return: int
 */
 int _strlen(char *s)
 {
@@ -27,7 +27,7 @@ int _strlen(char *s)
 
 char *str_concat(char *s1, char *s2)
 {
- unsigned int l1 = 0, l2 = 0;
+	unsigned int l1 = 0, l2 = 0;
 	char *s, *p;
 
 	if (!s1)
@@ -52,5 +52,5 @@ char *str_concat(char *s1, char *s2)
 		;
 
 	return (s);
-	
+
 }
