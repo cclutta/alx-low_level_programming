@@ -19,7 +19,7 @@ int _strlen(char *s)
 }
 
 /**
-* argtostr - that concatenates all the arguments of your program.
+* argstostr - that concatenates all the arguments of your program.
 * @ac: number
 * @av: args
 *
