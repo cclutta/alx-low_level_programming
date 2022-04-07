@@ -28,6 +28,8 @@ int *array_range(int min, int max)
 	if (p == NULL)
 	return (NULL);
 
+	i = 0;
+	
 	while(i < l && j <= max){
 	    p[i] = j;
 	    i++;
