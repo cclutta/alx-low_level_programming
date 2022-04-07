@@ -1,18 +1,19 @@
 #include "main.h"
 
 /**
-* main - check the code
-* @argc: number
-* @argv: array
+* _realloc - reallocates
+* @ptr: pointer
+* @old_size: number
+* @new_size: number
 *
-* Return: int
+* Return: void
 */
 
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 	char *temp, *realloc;
 	unsigned int i;
-	
+
 	if (ptr != NULL)
 	{
 		temp = ptr;
@@ -20,27 +21,27 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	else
 	{
 		temp = malloc(new_size);
-		return temp;
+		return (temp);
 	}
-	
+
 	if (old_size == new_size)
 	{
 		return (ptr);
 	}
-	
+
 	if (new_size == 0 && ptr != NULL)
-	{ 
+	{
 		free(ptr);
 		return (0);
 	}
-	
+
 	realloc = malloc(new_size);
-	
+
 	if (realloc == NULL)
 	{
 		return (NULL);
 	}
-	
+
 	for (i = 0; i < (old_size || i < new_size); i++)
 	{
 		*(realloc + i) = temp[i];
