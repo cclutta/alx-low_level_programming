@@ -10,10 +10,10 @@
 
 int main(int argc, char *argv[])
 {
-	unsigned int mul;
+	unsigned long mul;
 	int i, j;
 
-	if (argc != 2)
+	if (argc != 3)
 	{
 		printf("Error\n");
 		exit(98);
