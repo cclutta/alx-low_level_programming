@@ -29,11 +29,12 @@ int *array_range(int min, int max)
 	return (NULL);
 
 	i = 0;
-	
-	while(i < l && j <= max){
-	    p[i] = j;
-	    i++;
-	    j++;
+
+	while (i < l && j <= max)
+	{
+		p[i] = j;
+		i++;
+		j++;
 	}
 	return (p);
 }
