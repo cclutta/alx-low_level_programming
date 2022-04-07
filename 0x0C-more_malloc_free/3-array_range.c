@@ -28,13 +28,10 @@ int *array_range(int min, int max)
 	if (p == NULL)
 	return (NULL);
 
-	for (i = 0; i < l; i++)
-	{
-		while (j <= max)
-		{
-			p[i] = j;
-			j++;
-		}
+	while(i < l && j <= max){
+	    p[i] = j;
+	    i++;
+	    j++;
 	}
 	return (p);
 }
