@@ -1,0 +1,6 @@
+#ifndef FILE_FUNCTION_MACRO
+#define FILE_FUNCTION_MACRO
+
+#define ABS(x)  (((x) < 0) ? -1 * (x) : (x))
+
+#endif
