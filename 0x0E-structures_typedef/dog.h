@@ -1,5 +1,8 @@
 #ifndef FILE_DOG
 #define FILE_DOG
+
+#include <stdio.h>
+
 /**
  * struct dog - dog
  * @name: char name
