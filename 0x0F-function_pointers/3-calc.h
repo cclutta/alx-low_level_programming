@@ -1,6 +1,10 @@
 #ifndef FILE_CALC
 #define FILE_CALC
 
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+
 /**
  * struct op - Structure op
  * @op: operator
