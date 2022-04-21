@@ -1,3 +1,4 @@
+BITS 64;
 section .text
     default rel
     extern printf
