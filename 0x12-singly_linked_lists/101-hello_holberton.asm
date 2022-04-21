@@ -1,4 +1,5 @@
-mov rdi,formatStr 
+mov rdi,format
+mov rsi,Str
 mov al,0 
 
 extern printf
@@ -6,5 +7,7 @@ call printf
 
 ret
 
-formatStr:
+format:
 	db `Hello, Holberton\n`,0
+Str:
+	db '%s'
