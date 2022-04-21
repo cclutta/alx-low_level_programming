@@ -1,5 +1,5 @@
 mov rdi,format
-mov rsi,Str
+mov rsi,strr
 mov al,0 
 
 extern printf
@@ -9,5 +9,5 @@ ret
 
 format:
 	db `Hello, Holberton\n`,0
-Str:
+strr:
 	db `%s`
