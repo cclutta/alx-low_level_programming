@@ -12,10 +12,10 @@ main:
 
     call printf 
 
-    pop	rbp		; Pop stack
+    pop	rbp
 
-    mov	rax,0	; Exit code 0
-    ret			; Return
+    mov	rax,0
+    ret
 section .data
-    message:  db        "Hello, Holberton\n", 10, 0
+    message:  db        "Hello, Holberton", 10, 0
     fmt:    db "%s", 10, 0
