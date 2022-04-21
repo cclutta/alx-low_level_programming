@@ -10,7 +10,7 @@ main:
     mov	rsi, message
     mov	rax, 0
 
-    call printf wrt ..plt
+    call printf 
 
     pop	rbp		; Pop stack
 
