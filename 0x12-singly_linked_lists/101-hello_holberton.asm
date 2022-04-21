@@ -1,6 +1,6 @@
 mov rdi,format
 mov rsi,strr
-mov al,0 
+mov rax,0 
 
 extern printf
 call printf
