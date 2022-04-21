@@ -10,4 +10,4 @@ ret
 format:
 	db `Hello, Holberton\n`,0
 Str:
-	db '%s'
+	db `%s`
