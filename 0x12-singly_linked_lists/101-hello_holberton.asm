@@ -16,5 +16,5 @@ main:
     mov	rax,0
     ret
 section .data
-    message:  db        "Hello, Holberton", 10, 0
+    message:  db        "Hello, Holberton", 0
     fmt:    db "%s", 10, 0
