@@ -1,13 +1,20 @@
-mov rdi,format
-mov rsi,strr
-mov rax,0 
+section .text
+    default rel
+    extern printf
+    global main
+main:
+    push rbp
 
-extern printf
-call printf
+    mov	rdi, fmt
+    mov	rsi, message
+    mov	rax, 0
 
-ret
+    call printf wrt ..plt
 
-format:
-	db `Hello, Holberton\n`,0
-strr:
-	db `%s`
+    pop	rbp		; Pop stack
+
+    mov	rax,0	; Exit code 0
+    ret			; Return
+section .data
+    message:  db        "Hello, World", 10, 0
+    fmt:    db "%s", 10, 0
