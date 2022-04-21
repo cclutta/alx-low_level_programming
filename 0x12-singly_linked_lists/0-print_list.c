@@ -23,7 +23,7 @@ size_t print_list(const list_t *h)
 		}
 
 		len++;
-		current = current->next;	
+		current = current->next;
 	}
 	return (len);
 
