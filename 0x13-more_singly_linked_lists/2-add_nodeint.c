@@ -8,6 +8,7 @@
 * Return: list_t
 */
 list_t *add_nodeint(list_t **head, const int n)
+{
 	list_t *new = malloc(sizeof(list_t));
 	unsigned int len = 0;
 
