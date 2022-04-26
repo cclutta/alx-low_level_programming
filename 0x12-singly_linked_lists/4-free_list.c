@@ -1,19 +1,18 @@
 #include "lists.h"
 
 /**
-* free_list - that frees a list_t list
-* @head: list_t
+* free_listint - that frees a listint_t list
+* @head: listint_t
 *
 * Return: void
 */
-void free_list(list_t *head)
+void free_listint(listint_t *head)
 {
-	list_t *t;
+	listint_t *t;
 
 	while (head)
 	{
 		t = head->next;
-		free(head->str);
 		free(head);
 		head = t;
 	}
