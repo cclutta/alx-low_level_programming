@@ -1,4 +1,4 @@
-include "lists.h"
+#include "lists.h"
 
 /**
 * sum_listint - get node at index
@@ -9,7 +9,7 @@ include "lists.h"
 int sum_listint(listint_t *head)
 {
 	int sum = 0;
-	
+
 	while (head)
 	{
 		sum += head->n;
