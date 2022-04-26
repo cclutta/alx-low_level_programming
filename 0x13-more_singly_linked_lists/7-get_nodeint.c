@@ -3,6 +3,7 @@
 /**
 * get_nodeint_at_index - get node at index
 * @head: listint_t
+* @index: int
 *
 * Return: int
 */
