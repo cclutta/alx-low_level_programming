@@ -2,7 +2,7 @@
 
 /**
 * sum_dlistint -  returns the sum of elements
-* @h: head
+* @head: node
 *
 * Return: int
 */
