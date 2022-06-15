@@ -1,5 +1,4 @@
-#include <stdlib.h>
-#include <stdio.h>
+
 
 /**
 * add - add numbers
@@ -44,7 +43,7 @@ int mul(int a, int b)
 *
 * Return: int
 */
-float div(int a, int b)
+int div(int a, int b)
 {
 	return (a / b);
 }
