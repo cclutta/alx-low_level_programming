@@ -44,7 +44,7 @@ int mul(int a, int b)
 *
 * Return: int
 */
-int div(int a, int b)
+float div(int a, int b)
 {
 	return (a / b);
 }
